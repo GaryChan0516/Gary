@@ -1,0 +1,7 @@
+interface:
+  display_name: "美团退款处理助手"
+  short_description: "打开开店宝后台并批量拒绝团购退款未处理任务。"
+  default_prompt: "使用 $meituan-refund-rejector 打开美团开店宝并拒绝团购退款管理中的全部未处理任务。"
+
+policy:
+  allow_implicit_invocation: true
